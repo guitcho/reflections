@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+--> It creates a .git directory for git metatdata
+--> needed to store git metadata and track repository changes
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+--> Not all the files from the WD are part of te SA
+--> it adds flexibility
