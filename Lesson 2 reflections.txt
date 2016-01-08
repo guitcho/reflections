@@ -5,3 +5,17 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 --> Not all the files from the WD are part of te SA
 --> it adds flexibility
+
+How can you use the staging area to make sure you have one commit per logical change?
+--> Only add to staging area the files that contain changed related to that logical change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+--> branches would help to track one development without affecting the other and easily switch from one to the other
+--> branches are good to collaboration, even with yourself :) allowing to switch from one feature to another
+
+How do the diagrams help you visualize the branch structure?
+--> By showing on which commit the branches diverge
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+--> it merges the changes made in the 2 branches into one branch
+--> So the 2 branches that were separated are now back into one
